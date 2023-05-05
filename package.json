@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
+    "deploy": "npm i && npm start",
     "dev": "nodemon index.js"
   },
   "keywords": [],
@@ -20,4 +21,3 @@
     "nodemon": "^2.0.22"
   }
 }
-
