@@ -269,9 +269,9 @@ const data = [
     steps: [
       {
         description:
-          "Place potatoes in a large pot and cover with water. Bring to a boil and cook until tender, about 15-20 minutes. Drain and mash potatoes in a large bowl.",
-        duration: null,
-        durationUnit: null,
+          "Place potatoes in a large pot and cover with water. Bring to a boil and cook until tender, about 20 minutes. Drain and mash potatoes in a large bowl.",
+        duration: "20",
+        durationUnit: "min",
       },
       {
         description:
@@ -344,11 +344,389 @@ const data = [
       {
         description:
           "In a large skillet, heat vegetable oil and butter over medium heat. Add pork chops and cook for 3-4 minutes per side, until golden brown and cooked through.",
-        duration: "8",
+        duration: "4",
         durationUnit: "min",
       },
       {
         description: "Serve with lemon wedges on the side.",
+        duration: null,
+        durationUnit: null,
+      },
+    ],
+  },
+  {
+    id: 7,
+    type: "abroad",
+    name: "Pizza",
+    description:
+      "Traditional Italian dish consisting of a yeasted flatbread typically topped with tomato sauce and cheese.",
+    img: "https://cdn.aniagotuje.com/pictures/articles/2022/08/31553217-v-1500x1500.jpg",
+    ingredients: [
+      { amount: "1", unit: "lb", ingredient: "pizza dough" },
+      { amount: "1/2", unit: "cup", ingredient: "tomato sauce" },
+      { amount: "2", unit: "cups", ingredient: "shredded mozzarella cheese" },
+      { amount: "1/2", unit: "cup", ingredient: "sliced pepperoni" },
+      { amount: "1/4", unit: "cup", ingredient: "sliced black olives" },
+      { amount: "1/4", unit: "cup", ingredient: "sliced green bell pepper" },
+      { amount: "1/4", unit: "cup", ingredient: "sliced red onion" },
+      { amount: "", unit: "", ingredient: "salt and pepper to taste" },
+      { amount: "", unit: "", ingredient: "cornmeal for dusting" },
+    ],
+    steps: [
+      {
+        description: "Preheat the oven to 425°F (220°C).",
+        duration: null,
+        durationUnit: null,
+      },
+      {
+        description:
+          "Stretch the pizza dough to desired size and shape on a floured surface.",
+        duration: null,
+        durationUnit: null,
+      },
+      {
+        description:
+          "Sprinkle cornmeal over a baking sheet or pizza stone to prevent sticking. Transfer the stretched dough to the baking sheet or stone.",
+        duration: null,
+        durationUnit: null,
+      },
+      {
+        description:
+          "Spread the tomato sauce over the dough, leaving a small border around the edges. Top with shredded mozzarella cheese, pepperoni, black olives, green bell pepper, and red onion. Season with salt and pepper to taste.",
+        duration: null,
+        durationUnit: null,
+      },
+      {
+        description:
+          "Bake for 12-15 minutes or until crust is golden brown and cheese is melted and bubbly.",
+        duration: "15",
+        durationUnit: "min",
+      },
+      {
+        description: "Slice and serve hot.",
+        duration: null,
+        durationUnit: null,
+      },
+    ],
+  },
+  {
+    id: 8,
+    type: "abroad",
+    name: "Pad Thai",
+    description:
+      "A popular Thai street food consisting of stir-fried rice noodles with eggs, tofu, bean sprouts, peanuts, and a choice of protein such as shrimp or chicken.",
+    img: "https://www.recipetineats.com/wp-content/uploads/2020/01/Chicken-Pad-Thai_9-SQ.jpg",
+    ingredients: [
+      { amount: "8", unit: "oz", ingredient: "rice noodles" },
+      { amount: "2", unit: "tbsp", ingredient: "vegetable oil" },
+      { amount: "2", unit: "", ingredient: "garlic cloves, minced" },
+      { amount: "2", unit: "", ingredient: "eggs, beaten" },
+      { amount: "1/2", unit: "lb", ingredient: "shrimp, peeled and deveined" },
+      { amount: "2", unit: "tbsp", ingredient: "fish sauce" },
+      { amount: "2", unit: "tbsp", ingredient: "tamarind paste" },
+      { amount: "2", unit: "tbsp", ingredient: "brown sugar" },
+      { amount: "1/2", unit: "cup", ingredient: "bean sprouts" },
+      { amount: "1/4", unit: "cup", ingredient: "chopped peanuts" },
+    ],
+    steps: [
+      {
+        description: "Soak the rice noodles in cold water for 30 minutes.",
+        duration: "30",
+        durationUnit: "min",
+      },
+      {
+        description:
+          "Heat the vegetable oil in a wok or large skillet over medium-high heat. Add the garlic and stir-fry for 1-2 minutes.",
+        duration: "2",
+        durationUnit: "min",
+      },
+      {
+        description:
+          "Add the beaten eggs and scramble until cooked. Add the shrimp and stir-fry for 2-3 minutes until pink.",
+        duration: "3",
+        durationUnit: "min",
+      },
+      {
+        description:
+          "Add the soaked rice noodles, fish sauce, tamarind paste, and brown sugar to the wok. Stir-fry for 3-5 minutes until the noodles are cooked and the sauce has coated everything evenly.",
+        duration: "5",
+        durationUnit: "min",
+      },
+      {
+        description:
+          "Add the bean sprouts and stir-fry for an additional 1-2 minutes.",
+        duration: "2",
+        durationUnit: "min",
+      },
+      {
+        description:
+          "Remove from heat and sprinkle chopped peanuts over the top. Serve with lime wedges and garnish with chopped cilantro.",
+        duration: null,
+        durationUnit: null,
+      },
+    ],
+  },
+  {
+    id: 9,
+    type: "abroad",
+    name: "Sushi",
+    description:
+      "A Japanese dish of prepared vinegared rice, usually with some sugar and salt, accompanied by a variety of ingredients, such as seafood and vegetables, and often served with pickled ginger, wasabi, and soy sauce.",
+    img: "https://hips.hearstapps.com/hmg-prod/images/spicy-crab-rolls4-1654808938.jpg",
+    ingredients: [
+      { amount: "1", unit: "cup", ingredient: "sushi rice" },
+      { amount: "1 1/4", unit: "cups", ingredient: "water" },
+      { amount: "1/4", unit: "cup", ingredient: "rice vinegar" },
+      { amount: "1", unit: "tbsp", ingredient: "sugar" },
+      { amount: "1/2", unit: "tsp", ingredient: "salt" },
+      {
+        amount: "1/2",
+        unit: "lb",
+        ingredient: "fresh sushi-grade fish, sliced",
+      },
+      { amount: "1", unit: "avocado, sliced" },
+      { amount: "1/2", unit: "cucumber, sliced" },
+      { amount: "4", unit: "sheets", ingredient: "nori seaweed" },
+      { amount: "1", unit: "tbsp", ingredient: "wasabi paste" },
+    ],
+    steps: [
+      {
+        description: "Rinse the rice in a fine-mesh strainer and drain well.",
+        duration: null,
+        durationUnit: null,
+      },
+      {
+        description:
+          "In a medium saucepan, combine the rice, water, vinegar, sugar, and salt. Bring to a boil, then reduce the heat to low and simmer, covered, for 18-20 minutes, or until the liquid is absorbed and the rice is tender.",
+        duration: "20",
+        durationUnit: "min",
+      },
+      {
+        description:
+          "Remove the pan from the heat and let it sit, covered, for 10 minutes. Uncover and fluff the rice with a fork, then let it cool to room temperature.",
+        duration: "10",
+        durationUnit: "min",
+      },
+      {
+        description:
+          "Lay a sheet of nori, shiny-side down, on a bamboo sushi mat. Wet your hands and press a thin layer of rice over the nori, leaving a 1-inch border at the top.",
+        duration: null,
+        durationUnit: null,
+      },
+      {
+        description:
+          "Arrange a few slices of fish, avocado, and cucumber in the center of the rice. Use the mat to roll up the sushi, pressing firmly as you go. Dab a little water on the border of the nori to seal the roll.",
+        duration: null,
+        durationUnit: null,
+      },
+      {
+        description:
+          "Repeat with the remaining ingredients, then use a sharp knife to cut each roll into 6-8 pieces. Serve with pickled ginger, wasabi, and soy sauce.",
+        duration: null,
+        durationUnit: null,
+      },
+    ],
+  },
+  {
+    id: 10,
+    type: "abroad",
+    name: "Chicken Tikka Masala",
+    description:
+      "Indian dish made of marinated and grilled chunks of chicken cooked in a creamy tomato-based sauce.",
+    img: "https://www.seriouseats.com/thmb/DbQHUK2yNCALBnZE-H1M2AKLkok=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chicken-tikka-masala-for-the-grill-recipe-hero-2_1-cb493f49e30140efbffec162d5f2d1d7.JPG",
+    ingredients: [
+      {
+        amount: "1",
+        unit: "lb",
+        ingredient: "boneless, skinless chicken breasts",
+      },
+      { amount: "1", unit: "cup", ingredient: "plain yogurt" },
+      { amount: "1/4", unit: "cup", ingredient: "lemon juice" },
+      { amount: "2", unit: "tbsp", ingredient: "vegetable oil" },
+      { amount: "2", unit: "tbsp", ingredient: "butter" },
+      { amount: "1", unit: "large", ingredient: "onion, diced" },
+      { amount: "4", unit: "cloves", ingredient: "garlic, minced" },
+      { amount: "1", unit: "tbsp", ingredient: "fresh ginger, grated" },
+      { amount: "2", unit: "tsp", ingredient: "garam masala" },
+      { amount: "2", unit: "tsp", ingredient: "paprika" },
+      { amount: "1", unit: "tsp", ingredient: "ground cumin" },
+      { amount: "1/2", unit: "tsp", ingredient: "cayenne pepper" },
+      { amount: "1", unit: "can", ingredient: "tomato sauce (8 oz)" },
+      { amount: "1", unit: "cup", ingredient: "heavy cream" },
+      {
+        amount: "2",
+        unit: "tbsp",
+        ingredient: "fresh cilantro, chopped (optional)",
+      },
+    ],
+    steps: [
+      {
+        description:
+          "Cut chicken into bite-sized chunks and marinate in yogurt and lemon juice for at least 1 hour.",
+        duration: "1",
+        durationUnit: "hr",
+      },
+      {
+        description:
+          "Preheat oven to 400°F (200°C). Thread chicken onto skewers and brush with vegetable oil. Bake for 15-20 minutes or until cooked through.",
+        duration: "20",
+        durationUnit: "min",
+      },
+      {
+        description:
+          "Melt butter in a large skillet over medium heat. Add onion and cook until translucent. Add garlic and ginger and cook for 1-2 minutes until fragrant.",
+        duration: "10",
+        durationUnit: "min",
+      },
+      {
+        description:
+          "Add garam masala, paprika, cumin, and cayenne pepper and cook for 1-2 minutes until fragrant.",
+        duration: "2",
+        durationUnit: "min",
+      },
+      {
+        description:
+          "Stir in tomato sauce and bring to a simmer. Cook for 5-10 minutes or until sauce thickens slightly.",
+        duration: "10",
+        durationUnit: "min",
+      },
+      {
+        description:
+          "Stir in heavy cream and cooked chicken. Cook for an additional 5-10 minutes until heated through. Season with salt and pepper to taste.",
+        duration: "10",
+        durationUnit: "min",
+      },
+      {
+        description:
+          "Garnish with fresh cilantro if desired and serve with rice or naan bread.",
+        duration: null,
+        durationUnit: null,
+      },
+    ],
+  },
+  {
+    id: 11,
+    type: "abroad",
+    name: "Fish and Chips",
+    description:
+      "A classic British dish consisting of battered and deep-fried fish and thick-cut potato chips, usually served with tartar sauce and mushy peas.",
+    img: "https://www.tastingtable.com/img/gallery/classic-british-fish-and-chips-recipe/intro-1670356962.jpg",
+    ingredients: [
+      { amount: "1", unit: "lb", ingredient: "cod fillets fresh or frozen" },
+      { amount: "1", unit: "cup", ingredient: "all-purpose flour" },
+      { amount: "1", unit: "tsp", ingredient: "baking powder" },
+      { amount: "1/2", unit: "tsp", ingredient: "salt" },
+      { amount: "1", unit: "cup", ingredient: "beer cold" },
+      { amount: "4-5", unit: "pc", ingredient: "large potatoes" },
+      { amount: "1/2", unit: "tsp", ingredient: "salt" },
+      { amount: "1/4", unit: "tsp", ingredient: "black pepper" },
+      { amount: "2-3", unit: "cups", ingredient: "vegetable oil for frying" },
+    ],
+    steps: [
+      {
+        description: "Preheat the oven to 200°F (95°C).",
+        duration: null,
+        durationUnit: null,
+      },
+      {
+        description:
+          "Peel the potatoes and cut them into thick wedges. Rinse them with cold water and pat them dry with paper towels.",
+        duration: null,
+        durationUnit: null,
+      },
+      {
+        description:
+          "In a large pot or Dutch oven, heat the vegetable oil over medium-high heat until it reaches 350°F (175°C).",
+        duration: null,
+        durationUnit: null,
+      },
+      {
+        description:
+          "In a large bowl, whisk together the flour, baking powder, and salt. Slowly whisk in the cold beer until the batter is smooth.",
+        duration: null,
+        durationUnit: null,
+      },
+      {
+        description:
+          "Dip the cod fillets in the batter, letting any excess batter drip off, and carefully add them to the hot oil. Fry the fish for about 4-6 minutes per side, or until golden brown and crispy. Transfer the fish to a baking sheet lined with paper towels and keep warm in the oven while you fry the chips.",
+        duration: "6",
+        durationUnit: "min",
+      },
+      {
+        description:
+          "Add the potato wedges to the hot oil and fry them for about 5-7 minutes, or until they are golden brown and crispy. Use a slotted spoon or spider to remove the chips from the oil and transfer them to a baking sheet lined with paper towels. Season with salt and pepper to taste.",
+        duration: "7",
+        durationUnit: "min",
+      },
+      {
+        description:
+          "Serve the fish and chips hot, with tartar sauce, lemon wedges, and mushy peas on the side.",
+        duration: null,
+        durationUnit: null,
+      },
+    ],
+  },
+  {
+    id: 12,
+    type: "abroad",
+    name: "Chicken Parmesan",
+    description:
+      "An Italian-American dish consisting of breaded chicken breast topped with tomato sauce and melted mozzarella cheese.",
+    img: "https://danosseasoning.com/wp-content/uploads/2021/05/Oven-Baked-Chicken-Parm-2-scaled-e1627059836170.jpg",
+    ingredients: [
+      { amount: "4", unit: "", ingredient: "chicken breasts, pounded thin" },
+      { amount: "1", unit: "cup", ingredient: "all-purpose flour" },
+      { amount: "2", unit: "", ingredient: "eggs, beaten" },
+      { amount: "2", unit: "cups", ingredient: "panko bread crumbs" },
+      { amount: "1/2", unit: "cup", ingredient: "grated Parmesan cheese" },
+      { amount: "1/2", unit: "tsp", ingredient: "dried oregano" },
+      { amount: "1/2", unit: "tsp", ingredient: "garlic powder" },
+      { amount: "1/2", unit: "tsp", ingredient: "salt" },
+      { amount: "1/4", unit: "tsp", ingredient: "black pepper" },
+      { amount: "1/4", unit: "cup", ingredient: "vegetable oil" },
+      { amount: "2", unit: "cups", ingredient: "tomato sauce" },
+      { amount: "2", unit: "cups", ingredient: "shredded mozzarella cheese" },
+      { amount: "", unit: "", ingredient: "fresh basil leaves, for garnish" },
+    ],
+    steps: [
+      {
+        description: "Preheat the oven to 400°F (200°C).",
+        duration: null,
+        durationUnit: null,
+      },
+      {
+        description:
+          "Place the flour in a shallow dish. In another shallow dish, beat the eggs. In a third shallow dish, mix together the panko bread crumbs, Parmesan cheese, oregano, garlic powder, salt, and pepper.",
+        duration: null,
+        durationUnit: null,
+      },
+      {
+        description:
+          "Dredge each chicken breast in the flour, shaking off any excess. Dip in the beaten eggs, then coat in the breadcrumb mixture, pressing to adhere.",
+        duration: null,
+        durationUnit: null,
+      },
+      {
+        description:
+          "Heat the vegetable oil in a large skillet over medium-high heat. Working in batches if necessary, cook the chicken until golden brown and cooked through, about 3-4 minutes per side. Transfer to a baking dish.",
+        duration: "4",
+        durationUnit: "min",
+      },
+      {
+        description:
+          "Top each chicken breast with tomato sauce and shredded mozzarella cheese.",
+        duration: null,
+        durationUnit: null,
+      },
+      {
+        description:
+          "Bake for 10-15 minutes or until the cheese is melted and bubbly.",
+        duration: "15",
+        durationUnit: "min",
+      },
+      {
+        description:
+          "Garnish with fresh basil leaves and serve hot with pasta or garlic bread.",
         duration: null,
         durationUnit: null,
       },
