@@ -162,8 +162,8 @@ const data = [
       },
       {
         description:
-          "Bring a large pot of salted water to a boil. Add the dumplings to the boiling water and cook for 10-12 minutes, or until they rise to the surface.",
-        duration: "10-12",
+          "Bring a large pot of salted water to a boil. Add the dumplings to the boiling water and cook for 10 minutes, or until they rise to the surface.",
+        duration: "10",
         durationUnit: "min",
       },
       {
@@ -204,7 +204,7 @@ const data = [
       {
         description:
           "On a floured surface, knead dough for 5-10 minutes until smooth. Cover and let rest for 30 minutes.",
-        duration: 30,
+        duration: "30",
         durationUnit: "min",
       },
       {
@@ -234,7 +234,7 @@ const data = [
       {
         description:
           "Bring a large pot of salted water to a boil. Add pierogi in batches and cook for 3-5 minutes, until they float to the surface.",
-        duration: 5,
+        duration: "5",
         durationUnit: "min",
       },
       {
@@ -284,7 +284,7 @@ const data = [
       {
         description:
           "Bring a large pot of salted water to a boil. Add the kopytka and cook until they float to the surface, about 3-5 minutes.",
-        duration: 5,
+        duration: "5",
         durationUnit: "min",
       },
       {
