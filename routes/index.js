@@ -317,7 +317,6 @@ const data = [
       { amount: "1", unit: "cup", name: "breadcrumbs" },
       { amount: "1/4", unit: "cup", name: "vegetable oil" },
       { amount: "4", unit: "tbsp", name: "unsalted butter" },
-      { amount: null, unit: null, name: "lemon wedges, for serving" },
     ],
     steps: [
       {
@@ -341,7 +340,7 @@ const data = [
       {
         description:
           "In a large skillet, heat vegetable oil and butter over medium heat. Add pork chops and cook for 3-4 minutes per side, until golden brown and cooked through.",
-        duration: 8,
+        duration: "8",
         durationUnit: "min",
       },
       {
