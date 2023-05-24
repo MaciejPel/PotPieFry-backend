@@ -564,7 +564,7 @@ const data = [
         description:
           "Cut chicken into bite-sized chunks and marinate in yogurt and lemon juice for at least 1 hour.",
         duration: "1",
-        durationUnit: "hr",
+        durationUnit: "h",
       },
       {
         description:
